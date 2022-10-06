@@ -16,7 +16,7 @@
  *     You should have received a copy of the GNU General Public License
  *     along with Cora.  If not, see <http://www.gnu.org/licenses/>.
  */
-package se.uu.ub.cora.testspies.logger;
+package se.uu.ub.cora.logger.spies;
 
 import static org.testng.Assert.assertTrue;
 
@@ -25,8 +25,8 @@ import java.util.function.Supplier;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import se.uu.ub.cora.testspies.spy.MCRSpy;
 import se.uu.ub.cora.testutils.mcr.MethodCallRecorder;
+import se.uu.ub.cora.testutils.spies.MCRSpy;
 
 public class LoggerSpyTest {
 	private static final String ADD_CALL = "addCall";
