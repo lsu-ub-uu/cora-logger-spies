@@ -7,7 +7,7 @@
 	</parent>
 
 	<artifactId>logger-spies</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>logger-spies</name>
 	
@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/lsu-ub-uu/cora-logger-spies.git</connection>
 		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-logger-spies.git</developerConnection>
 		<url>https://github.com/lsu-ub-uu/cora-logger-spies.git</url>
-		<tag>release/1.0</tag>
+		<tag>logger-spies-1.0.0</tag>
 	</scm>
 
 	<dependencies>
